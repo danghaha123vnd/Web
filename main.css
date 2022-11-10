@@ -53,9 +53,11 @@
   }
   
   #drag-container img:hover, #drag-container video:hover {
-    -webkit-box-shadow: 0 0 12px #fffd;
-            box-shadow: 0 0 12px #fffd;
+    -webkit-box-shadow: 0 0 15px #fffd;
+            box-shadow: 0 0 15px #fffd;
     -webkit-box-reflect: below 7px linear-gradient(transparent, transparent, #0007);
+    max-width: 120%;
+    max-height: 120%; 
   }
   
   #drag-container p {
